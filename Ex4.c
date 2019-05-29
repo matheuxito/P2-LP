@@ -13,9 +13,10 @@ int main(void){
     if (palavra[i]==palavra[j])  // Analisando se a palavra é igual ao inverso dela        
       j--;                      
     else{    // Caso em algum ponto ela não ser igual ao inverso dela, ela não será um palíndromo
-      printf("\n%s não é um Palíndromo",palavra);   // printf("0\n");  
+      printf("\n%s não é um Palíndromo",palavra);
       return 0;
     }
   }   // Como a palavra é igual ao inverso dela, ela é palíndromo
-  printf("\n%s é um Palíndromo",palavra);           // printf("1\n");
+  printf("\n%s é um Palíndromo",palavra);
+  return 1;
 }
